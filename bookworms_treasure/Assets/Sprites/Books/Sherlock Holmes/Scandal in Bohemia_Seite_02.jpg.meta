@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 0691a911d34b80c44a326c3fa37c8b0d
+guid: 30515714b9a5dae438a563585c1e8be2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2272403862320690129
-    second: Simple_Bookshelf_0
-  - first:
-      213: 8252416371814655695
-    second: Simple_Bookshelf_1
+      213: 2419476124259672644
+    second: Scandal in Bohemia_Seite_02_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Simple_Bookshelf_0
+      name: Scandal in Bohemia_Seite_02_0
       rect:
         serializedVersion: 2
-        x: 104
-        y: 22
-        width: 594
-        height: 1146
+        x: 0
+        y: 0
+        width: 1654
+        height: 2339
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d3b9d7e543398f10800000000000000
-      internalID: 2272403862320690129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Simple_Bookshelf_1
-      rect:
-        serializedVersion: 2
-        x: 751
-        y: 524
-        width: 17
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fc661ac87f8768270800000000000000
-      internalID: 8252416371814655695
+      spriteID: 442690157b4b39120800000000000000
+      internalID: 2419476124259672644
       vertices: []
       indices: 
       edges: []
@@ -173,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Simple_Bookshelf_0: 2272403862320690129
-      Simple_Bookshelf_1: 8252416371814655695
+      Scandal in Bohemia_Seite_02_0: 2419476124259672644
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
