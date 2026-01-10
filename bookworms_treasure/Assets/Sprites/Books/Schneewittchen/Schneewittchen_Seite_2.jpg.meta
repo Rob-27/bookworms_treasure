@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 646547f43487a254fb6354632e244cc8
+guid: 36fe5cd53d156d442bf750d1040d61bc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2041220999519546045
-    second: Scandal in Bohemia_Seite_23_0
+      213: 2077659665415151466
+    second: Schneewittchen_Seite_2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Scandal in Bohemia_Seite_23_0
+      name: Schneewittchen_Seite_2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 345d197d0502ca3e0800000000000000
-      internalID: -2041220999519546045
+      spriteID: a6f1a31357455dc10800000000000000
+      internalID: 2077659665415151466
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Scandal in Bohemia_Seite_23_0: -2041220999519546045
+      Schneewittchen_Seite_2_0: 2077659665415151466
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

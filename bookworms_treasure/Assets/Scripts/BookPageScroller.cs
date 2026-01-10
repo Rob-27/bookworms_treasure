@@ -4,6 +4,10 @@ public class BookPageScroller : MonoBehaviour
 {
     int pagePositionY = -575;
 
+    public int firstPagePositionY = 0;
+
+    public int lastPagePositionY = 475;
+
     public int spaceBetweenPages = 25;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -20,29 +24,29 @@ public class BookPageScroller : MonoBehaviour
 
     public void TurnToNextPage()
     {
-        if (pagePositionY < 0 && pagePositionY >= -575)
+        if (pagePositionY < firstPagePositionY && pagePositionY >= lastPagePositionY)
         {
             pagePositionY += spaceBetweenPages;
 
-            Vector2 newPosition = new Vector2(0, pagePositionY);
+            Vector2 newPosition = new Vector2(-100, pagePositionY);
 
             transform.position = newPosition;
         }
 
-        else if (pagePositionY >= 0)
+        else if (pagePositionY >= firstPagePositionY)
         {
-            pagePositionY = 0;
+            pagePositionY = firstPagePositionY;
 
-            Vector2 newPosition = new Vector2(0, pagePositionY);
+            Vector2 newPosition = new Vector2(-100, pagePositionY);
 
             transform.position = newPosition;
         }
 
-        else if (pagePositionY < -575)
+        else if (pagePositionY < lastPagePositionY)
         {
-            pagePositionY = -575;
+            pagePositionY = lastPagePositionY;
 
-            Vector2 newPosition = new Vector2(0, pagePositionY);
+            Vector2 newPosition = new Vector2(-100, pagePositionY);
 
             transform.position = newPosition;
         }
@@ -50,29 +54,29 @@ public class BookPageScroller : MonoBehaviour
 
     public void TurnToPreviousPage()
     {
-        if (pagePositionY <= 0 && pagePositionY > -575)
+        if (pagePositionY <= firstPagePositionY && pagePositionY > lastPagePositionY)
         {
             pagePositionY -= spaceBetweenPages;
 
-            Vector2 newPosition = new Vector2(0, pagePositionY);
+            Vector2 newPosition = new Vector2(-100, pagePositionY);
 
             transform.position = newPosition;
         }
 
-        else if (pagePositionY > 0)
+        else if (pagePositionY > firstPagePositionY)
         {
-            pagePositionY = 0;
+            pagePositionY = firstPagePositionY;
 
-            Vector2 newPosition = new Vector2(0, pagePositionY);
+            Vector2 newPosition = new Vector2(-100, pagePositionY);
 
             transform.position = newPosition;
         }
 
-        else if (pagePositionY <= -575)
+        else if (pagePositionY <= lastPagePositionY)
         {
-            pagePositionY = -575;
+            pagePositionY = lastPagePositionY;
 
-            Vector2 newPosition = new Vector2(0, pagePositionY);
+            Vector2 newPosition = new Vector2(-100, pagePositionY);
 
             transform.position = newPosition;
         }

@@ -7,6 +7,8 @@ public class UIController : MonoBehaviour
 {
     public GameObject inventoryMenu;
 
+    public GameObject booksMenu;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -29,7 +31,22 @@ public class UIController : MonoBehaviour
 
         else if (inventoryMenu.activeSelf == false)
         {
+            booksMenu.SetActive(false);
             inventoryMenu.SetActive(true);
+        }
+    }
+
+    public void OpenBooksMenu()
+    {
+        if (booksMenu.activeSelf == true)
+        {
+            booksMenu.SetActive(false);
+        }
+
+        else if (booksMenu.activeSelf == false)
+        {
+            inventoryMenu.SetActive(false);
+            booksMenu.SetActive(true);
         }
     }
 }

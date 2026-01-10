@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e1b6536d6b0a62b488c57a0cfe5de9e4
+guid: b8cd36737217bd84d8ec555d4a7abf5d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1990322287782208404
-    second: Scandal in Bohemia_Seite_21_0
+      213: -527376789139266151
+    second: Odyssee Erster Gesang_Seite_2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Scandal in Bohemia_Seite_21_0
+      name: Odyssee Erster Gesang_Seite_2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c6cd238ac64f064e0800000000000000
-      internalID: -1990322287782208404
+      spriteID: 995619cba916ea8f0800000000000000
+      internalID: -527376789139266151
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Scandal in Bohemia_Seite_21_0: -1990322287782208404
+      Odyssee Erster Gesang_Seite_2_0: -527376789139266151
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
