@@ -17,18 +17,18 @@ MonoBehaviour:
     m_Hash: 120101800
     m_CategoryList: []
     m_OverrideEntries:
-    - m_Name: Eyes_O
-      m_Hash: 463107168
-      m_Sprite: {fileID: -5921774102442969748, guid: 301dbda566888b34a959fbade2e21429, type: 3}
+    - m_Name: New Label
+      m_Hash: 259326342
+      m_Sprite: {fileID: -1757535150707547316, guid: 2852f4916424da543ab5dd3c097bb6cb, type: 3}
       m_FromMain: 0
-      m_SpriteOverride: {fileID: -5921774102442969748, guid: 301dbda566888b34a959fbade2e21429, type: 3}
-    - m_Name: Eyes_C
-      m_Hash: 304887883
-      m_Sprite: {fileID: 2543659897323311554, guid: 301dbda566888b34a959fbade2e21429, type: 3}
+      m_SpriteOverride: {fileID: -1757535150707547316, guid: 2852f4916424da543ab5dd3c097bb6cb, type: 3}
+    - m_Name: New Label_0
+      m_Hash: 16589798
+      m_Sprite: {fileID: 7814398799873340141, guid: 2852f4916424da543ab5dd3c097bb6cb, type: 3}
       m_FromMain: 0
-      m_SpriteOverride: {fileID: 2543659897323311554, guid: 301dbda566888b34a959fbade2e21429, type: 3}
+      m_SpriteOverride: {fileID: 7814398799873340141, guid: 2852f4916424da543ab5dd3c097bb6cb, type: 3}
     m_FromMain: 0
     m_EntryOverrideCount: 2
   m_PrimaryLibraryGUID: 
-  m_ModificationHash: 639033074355821403
+  m_ModificationHash: 639035051364887678
   m_Version: 1

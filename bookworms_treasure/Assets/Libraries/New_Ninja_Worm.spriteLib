@@ -13,22 +13,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.2D.Animation.Runtime::UnityEngine.U2D.Animation.SpriteLibrarySourceAsset
   m_Library:
-  - m_Name: eyes
-    m_Hash: 656028822
+  - m_Name: Eyes
+    m_Hash: 120101800
     m_CategoryList: []
     m_OverrideEntries:
     - m_Name: New Label
       m_Hash: 259326342
-      m_Sprite: {fileID: -2026162493360526323, guid: 3da069698a79290458ea343f3a06570e, type: 3}
+      m_Sprite: {fileID: 2170987575897695368, guid: 52c3ef820dfcc7647903ea31c5a4406f, type: 3}
       m_FromMain: 0
-      m_SpriteOverride: {fileID: -2026162493360526323, guid: 3da069698a79290458ea343f3a06570e, type: 3}
+      m_SpriteOverride: {fileID: 2170987575897695368, guid: 52c3ef820dfcc7647903ea31c5a4406f, type: 3}
     - m_Name: New Label_0
       m_Hash: 16589798
-      m_Sprite: {fileID: -4053146908035739720, guid: 3da069698a79290458ea343f3a06570e, type: 3}
+      m_Sprite: {fileID: -8642514128358026521, guid: 52c3ef820dfcc7647903ea31c5a4406f, type: 3}
       m_FromMain: 0
-      m_SpriteOverride: {fileID: -4053146908035739720, guid: 3da069698a79290458ea343f3a06570e, type: 3}
+      m_SpriteOverride: {fileID: -8642514128358026521, guid: 52c3ef820dfcc7647903ea31c5a4406f, type: 3}
     m_FromMain: 0
     m_EntryOverrideCount: 2
   m_PrimaryLibraryGUID: 
-  m_ModificationHash: 639034724069757945
+  m_ModificationHash: 639039258613531112
   m_Version: 1
