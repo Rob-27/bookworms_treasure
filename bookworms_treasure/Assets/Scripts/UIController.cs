@@ -9,17 +9,10 @@ public class UIController : MonoBehaviour
 
     public GameObject booksMenu;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public GameObject profileMenu;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public GameObject minigameMenu;
+
 
     public void OpenInventory()
     {
@@ -32,6 +25,8 @@ public class UIController : MonoBehaviour
         else if (inventoryMenu.activeSelf == false)
         {
             booksMenu.SetActive(false);
+            profileMenu.SetActive(false);
+            minigameMenu.SetActive(false);
             inventoryMenu.SetActive(true);
         }
     }
@@ -46,7 +41,41 @@ public class UIController : MonoBehaviour
         else if (booksMenu.activeSelf == false)
         {
             inventoryMenu.SetActive(false);
+            profileMenu.SetActive(false);
+            minigameMenu.SetActive(false);
             booksMenu.SetActive(true);
+        }
+    }
+
+    public void OpenProfile()
+    {
+        if (profileMenu.activeSelf == true)
+        {
+            profileMenu.SetActive(false);
+        }
+
+        else if (profileMenu.activeSelf == false)
+        {
+            inventoryMenu.SetActive(false);
+            booksMenu.SetActive(false);
+            minigameMenu.SetActive(false);
+            profileMenu.SetActive(true);
+        }
+    }
+
+    public void OpenMiniGames()
+    {
+        if (minigameMenu.activeSelf == true)
+        {
+            minigameMenu.SetActive(false);
+        }
+
+        else if (minigameMenu.activeSelf == false)
+        {
+            inventoryMenu.SetActive(false);
+            booksMenu.SetActive(false);
+            profileMenu.SetActive(false);
+            minigameMenu.SetActive(true);
         }
     }
 }

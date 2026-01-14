@@ -3,21 +3,21 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    InputAction moveAction;
+    // InputAction moveAction;
 
-    float speed = 10.0f;
+    // float speed = 10.0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        moveAction = InputSystem.actions.FindAction("Move");
-    }
+    // void Start()
+    // {
+    //  moveAction = InputSystem.actions.FindAction("Move");
+    // }
 
     // Update is called once per frame
-    void Update()
-    {
-        Vector2 moveValue = moveAction.ReadValue<Vector2>();
+    // void Update()
+    // {
+    //  Vector2 moveValue = moveAction.ReadValue<Vector2>();
 
-        transform.Translate(moveValue * speed * Time.deltaTime);
-    }
+    //  transform.Translate(moveValue * speed * Time.deltaTime);
+    // }
 }
