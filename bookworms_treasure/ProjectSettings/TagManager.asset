@@ -6,6 +6,7 @@ TagManager:
   tags:
   - FloorTile
   - WallTile
+  - Score
   layers:
   - Default
   - TransparentFX
@@ -54,6 +55,9 @@ TagManager:
     locked: 0
   - name: Characters
     uniqueID: 3349463761
+    locked: 0
+  - name: Overlay
+    uniqueID: 2213206795
     locked: 0
   m_RenderingLayers:
   - Default
