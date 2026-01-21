@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.2D.Animation.Runtime::UnityEngine.U2D.Animation.SpriteLibrarySourceAsset
+  m_Library:
+  - m_Name: Smoke
+    m_Hash: 143115902
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: New Label
+      m_Hash: 259326342
+      m_Sprite: {fileID: -3614736710419290064, guid: 2fed65c366b52444185187092235184c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3614736710419290064, guid: 2fed65c366b52444185187092235184c, type: 3}
+    - m_Name: New Label_0
+      m_Hash: 16589798
+      m_Sprite: {fileID: -3637750197261459578, guid: 2fed65c366b52444185187092235184c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3637750197261459578, guid: 2fed65c366b52444185187092235184c, type: 3}
+    - m_Name: New Label_1
+      m_Hash: 939135856
+      m_Sprite: {fileID: 6051643510057622027, guid: 2fed65c366b52444185187092235184c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 6051643510057622027, guid: 2fed65c366b52444185187092235184c, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: Eyes
+    m_Hash: 120101800
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Eyes_O
+      m_Hash: 463107168
+      m_Sprite: {fileID: 4203189339514447752, guid: 2fed65c366b52444185187092235184c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4203189339514447752, guid: 2fed65c366b52444185187092235184c, type: 3}
+    - m_Name: Eyes_C
+      m_Hash: 304887883
+      m_Sprite: {fileID: 1962249581769830047, guid: 2fed65c366b52444185187092235184c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1962249581769830047, guid: 2fed65c366b52444185187092235184c, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: Mouth
+    m_Hash: 520385427
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Mouth_1
+      m_Hash: 1044706565
+      m_Sprite: {fileID: 8743841957970001454, guid: 2fed65c366b52444185187092235184c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8743841957970001454, guid: 2fed65c366b52444185187092235184c, type: 3}
+    - m_Name: Mouth_2
+      m_Hash: 659399871
+      m_Sprite: {fileID: 7625360822092679668, guid: 2fed65c366b52444185187092235184c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7625360822092679668, guid: 2fed65c366b52444185187092235184c, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 639046302264391400
+  m_Version: 1
