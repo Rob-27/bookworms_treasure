@@ -7,9 +7,19 @@ public class ScoreCounter : MonoBehaviour
 
     private static TMP_Text scoreText;
 
+    public RewardManager rewards;
+
     void Start()
     {
         scoreText = gameObject.GetComponent<TMP_Text>();
+    }
+
+    void Update()
+    {
+        if (scoredPoints == 8)
+        {
+            rewards.beatQuotesQuiz = true;
+        }
     }
 
     public static void AddPoint()

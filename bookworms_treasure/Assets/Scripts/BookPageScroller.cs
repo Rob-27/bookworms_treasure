@@ -2,13 +2,21 @@ using UnityEngine;
 
 public class BookPageScroller : MonoBehaviour
 {
-    int pagePositionY = -575;
+    int pagePositionY = 0;
 
     public int firstPagePositionY = 0;
 
     public int lastPagePositionY = 475;
 
     public int spaceBetweenPages = 25;
+
+    public GameObject BookSherlock;
+
+    public GameObject BookSnowWhite;
+
+    public GameObject BookOdyssey;
+
+    public RewardManager rewards;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,7 +27,20 @@ public class BookPageScroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (BookSherlock.activeSelf == true && pagePositionY == 475)
+        {
+            rewards.finishedSherlock = true;
+        }
+
+        if (BookSnowWhite.activeSelf == true && pagePositionY == 100)
+        {
+            rewards.finishedSnowWhite = true;
+        }
+
+        if (BookOdyssey.activeSelf == true && pagePositionY == 125)
+        {
+            rewards.finishedOdyssey = true;
+        }
     }
 
     public void TurnToNextPage()
