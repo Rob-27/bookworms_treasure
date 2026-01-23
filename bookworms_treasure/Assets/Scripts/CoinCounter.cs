@@ -4,6 +4,7 @@ public class CoinCounter : MonoBehaviour
 {
     public int currentCoins = 0;
     public RewardManager rewards;
+    public GameObject mainView;
 
     public bool gotCoinsForSherlock = false;
     public bool gotCoinsForOdyssey = false;
@@ -18,31 +19,34 @@ public class CoinCounter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (rewards.finishedSherlock == true && gotCoinsForSherlock == false)
+        if (mainView.activeSelf == true)
         {
-            AddTenCoins();
-            gotCoinsForSherlock = true;
-        }
+            if (rewards.finishedSherlock == true && gotCoinsForSherlock == false)
+            {
+                AddTenCoins();
+                gotCoinsForSherlock = true;
+            }
 
 
-        if (rewards.finishedOdyssey == true && gotCoinsForOdyssey == false)
-        {
-            AddTenCoins();
-            gotCoinsForOdyssey = true;
-        }
+            if (rewards.finishedOdyssey == true && gotCoinsForOdyssey == false)
+            {
+                AddTenCoins();
+                gotCoinsForOdyssey = true;
+            }
 
 
-        if (rewards.finishedSnowWhite == true && gotCoinsForSnowWhite == false)
-        {
-            AddTenCoins();
-            gotCoinsForSnowWhite = true;
-        }
+            if (rewards.finishedSnowWhite == true && gotCoinsForSnowWhite == false)
+            {
+                AddTenCoins();
+                gotCoinsForSnowWhite = true;
+            }
 
 
-        if (rewards.beatQuotesQuiz == true && gotCoinsForQuotesQuiz == false)
-        {
-            AddTenCoins();
-            gotCoinsForQuotesQuiz = true;
+            if (rewards.beatQuotesQuiz == true && gotCoinsForQuotesQuiz == false)
+            {
+                AddTenCoins();
+                gotCoinsForQuotesQuiz = true;
+            }
         }
     }
 
