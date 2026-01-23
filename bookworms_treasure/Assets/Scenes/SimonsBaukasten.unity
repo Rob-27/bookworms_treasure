@@ -41867,6 +41867,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CoinCounter
   currentCoins: 0
   rewards: {fileID: 1814069522}
+  gotCoinsForSherlock: 0
+  gotCoinsForOdyssey: 0
+  gotCoinsForSnowWhite: 0
+  gotCoinsForQuotesQuiz: 0
 --- !u!4 &1771833590
 Transform:
   m_ObjectHideFlags: 0
