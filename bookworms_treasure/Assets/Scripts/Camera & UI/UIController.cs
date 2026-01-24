@@ -13,6 +13,8 @@ public class UIController : MonoBehaviour
 
     public GameObject minigameMenu;
 
+    public GameObject friendMenu;
+
 
     public void OpenInventory()
     {
@@ -27,6 +29,7 @@ public class UIController : MonoBehaviour
             booksMenu.SetActive(false);
             profileMenu.SetActive(false);
             minigameMenu.SetActive(false);
+            friendMenu.SetActive(false);
             inventoryMenu.SetActive(true);
         }
     }
@@ -43,6 +46,7 @@ public class UIController : MonoBehaviour
             inventoryMenu.SetActive(false);
             profileMenu.SetActive(false);
             minigameMenu.SetActive(false);
+            friendMenu.SetActive(false);
             booksMenu.SetActive(true);
         }
     }
@@ -59,6 +63,7 @@ public class UIController : MonoBehaviour
             inventoryMenu.SetActive(false);
             booksMenu.SetActive(false);
             minigameMenu.SetActive(false);
+            friendMenu.SetActive(false);
             profileMenu.SetActive(true);
         }
     }
@@ -75,7 +80,25 @@ public class UIController : MonoBehaviour
             inventoryMenu.SetActive(false);
             booksMenu.SetActive(false);
             profileMenu.SetActive(false);
+            friendMenu.SetActive(false);
             minigameMenu.SetActive(true);
+        }
+    }
+
+    public void OpenFriendMenu()
+    {
+        if (friendMenu.activeSelf == true)
+        {
+            friendMenu.SetActive(false);
+        }
+
+        else if (friendMenu.activeSelf == false)
+        {
+            inventoryMenu.SetActive(false);
+            booksMenu.SetActive(false);
+            profileMenu.SetActive(false);
+            minigameMenu.SetActive(false);
+            friendMenu.SetActive(true);
         }
     }
 }
