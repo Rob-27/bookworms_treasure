@@ -19,16 +19,16 @@ MonoBehaviour:
     m_OverrideEntries:
     - m_Name: New Label
       m_Hash: 259326342
-      m_Sprite: {fileID: 2170987575897695368, guid: 52c3ef820dfcc7647903ea31c5a4406f, type: 3}
+      m_Sprite: {fileID: 461991745584334003, guid: 44c4aaad675698b47b507cd6be1964c2, type: 3}
       m_FromMain: 0
-      m_SpriteOverride: {fileID: 2170987575897695368, guid: 52c3ef820dfcc7647903ea31c5a4406f, type: 3}
+      m_SpriteOverride: {fileID: 461991745584334003, guid: 44c4aaad675698b47b507cd6be1964c2, type: 3}
     - m_Name: New Label_0
       m_Hash: 16589798
-      m_Sprite: {fileID: -8642514128358026521, guid: 52c3ef820dfcc7647903ea31c5a4406f, type: 3}
+      m_Sprite: {fileID: 7813066456645992819, guid: 44c4aaad675698b47b507cd6be1964c2, type: 3}
       m_FromMain: 0
-      m_SpriteOverride: {fileID: -8642514128358026521, guid: 52c3ef820dfcc7647903ea31c5a4406f, type: 3}
+      m_SpriteOverride: {fileID: 7813066456645992819, guid: 44c4aaad675698b47b507cd6be1964c2, type: 3}
     m_FromMain: 0
     m_EntryOverrideCount: 2
   m_PrimaryLibraryGUID: 
-  m_ModificationHash: 639039258613531112
+  m_ModificationHash: 639049421852009809
   m_Version: 1

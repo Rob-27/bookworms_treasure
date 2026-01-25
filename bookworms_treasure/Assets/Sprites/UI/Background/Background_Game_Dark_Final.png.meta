@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b1bb249463ae6134b88508880831de67
+guid: 2adafc52eb0422e4e859e63d008a2ae4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -186724238777787083
-    second: Game_Background_dark_0
+      213: -7549621982557549062
+    second: Background_Game_Dark_Final_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Game_Background_dark_0
+      name: Background_Game_Dark_Final_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 3840
+        height: 2160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53dd1bc4b4f986df0800000000000000
-      internalID: -186724238777787083
+      spriteID: afd4d257eca5a3790800000000000000
+      internalID: -7549621982557549062
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Game_Background_dark_0: -186724238777787083
+      Background_Game_Dark_Final_0: -7549621982557549062
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
