@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b1bb249463ae6134b88508880831de67
+guid: 1df60d5e142303546b9faa14755d2bb1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -186724238777787083
-    second: Game_Background_dark_0
+      213: -8680004169590671351
+    second: Wooden_Floor_new_colors_isometric_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Game_Background_dark_0
+      name: Wooden_Floor_new_colors_isometric_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 131
+        y: 28
+        width: 938
+        height: 544
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53dd1bc4b4f986df0800000000000000
-      internalID: -186724238777787083
+      spriteID: 90873a6423e6a8780800000000000000
+      internalID: -8680004169590671351
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Game_Background_dark_0: -186724238777787083
+      Wooden_Floor_new_colors_isometric_0: -8680004169590671351
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
