@@ -7,15 +7,19 @@ TagManager:
   - FloorTile
   - WallTile
   - Score
+  - Floor
+  - FurnitureParent
+  - Blocked
+  - BuildingMode
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Characters
   - Water
   - UI
-  - 
-  - 
+  - Floor
+  - Wall
   - 
   - 
   - 

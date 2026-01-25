@@ -991,6 +991,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Gameplay",
+            "id": "b66b9865-9aa6-4288-bb61-c9e2b3f7af51",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "4aed6185-3779-4eb6-b1e0-fd8b7902685c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "90d33a62-4743-4174-a5fd-ccb1df1d8711",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
