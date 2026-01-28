@@ -7,7 +7,7 @@ public class ObjectBehaviour : MonoBehaviour, IPointerClickHandler
     public static GameObject furnitureParent;
     public static GameObject inventoryMenu;
     public static ObjectPlacing buildingMode;
-    private bool isFlipped = false;
+    public bool isFlipped = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -37,8 +37,6 @@ public class ObjectBehaviour : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        // Debug.Log("ObjectWasClicked");
-
         if (buildingMode.deleteObjectMode == true)
         {
            Destroy(gameObject);
@@ -53,7 +51,7 @@ public class ObjectBehaviour : MonoBehaviour, IPointerClickHandler
         else if (buildingMode.flipObjectMode == true && isFlipped == true)
         {
             isFlipped = false;
-            transform.rotation = Quaternion.Euler(0, 180f, 0);
+            transform.rotation = Quaternion.Euler(0, 0, 0);
         }
     }
 }

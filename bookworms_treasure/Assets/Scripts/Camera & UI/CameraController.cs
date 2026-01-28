@@ -5,7 +5,7 @@ public class CameraController : MonoBehaviour
 {
     InputAction moveAction;
 
-    public float speed = 10.0f;
+    float speed = 20.0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

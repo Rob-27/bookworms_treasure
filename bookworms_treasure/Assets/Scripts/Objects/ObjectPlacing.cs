@@ -1,12 +1,20 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Tilemaps;
+using UnityEngine.UI;
 
 public class ObjectPlacing : MonoBehaviour
 {
     public GameObject poolTable;
     public GameObject armchair;
     public GameObject bookshelf;
+
+    public Button poolTableButton;
+    public Button armchairButton;
+    public Button bookshelfButton;
+
+    public GameObject poolTablePreview;
+    public GameObject armchairPreview;
+    public GameObject bookshelfPreview;
 
     public bool poolTableButtonClicked = false;
     public bool armchairButtonClicked = false;
@@ -24,26 +32,61 @@ public class ObjectPlacing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (poolTableButtonClicked == true && Mouse.current.leftButton.wasPressedThisFrame)
+        if (deleteObjectMode == true)
         {
-            Instantiate(poolTable);
-            PlaceNoObject();
+            poolTableButton.enabled = false;
+            armchairButton.enabled = false;
+            bookshelfButton.enabled = false;
         }
 
-        if (armchairButtonClicked == true && Mouse.current.leftButton.wasPressedThisFrame)
+        if (flipObjectMode == true)
         {
-            Instantiate(armchair);
-            PlaceNoObject();
+            poolTableButton.enabled = false;
+            armchairButton.enabled = false;
+            bookshelfButton.enabled = false;
         }
 
-        if (bookshelfButtonClicked == true && Mouse.current.leftButton.wasPressedThisFrame)
+        if (noObjectToPlace == true)
         {
-            Instantiate(bookshelf);
-            PlaceNoObject();
+            poolTableButton.enabled = true;
+            armchairButton.enabled = true;
+            bookshelfButton.enabled = true;
         }
 
-        if (deleteObjectMode == true && Mouse.current.leftButton.wasPressedThisFrame)
+        if (poolTableButtonClicked == true)
         {
+            poolTablePreview.SetActive(true);
+
+            if (Mouse.current.leftButton.wasPressedThisFrame)
+            {
+                Instantiate(poolTable);
+                poolTablePreview.SetActive(false);
+                PlaceNoObject();
+            }
+        }
+
+        if (armchairButtonClicked == true)
+        {
+            armchairPreview.SetActive(true);
+
+            if (Mouse.current.leftButton.wasPressedThisFrame)
+            {
+                Instantiate(armchair);
+                armchairPreview.SetActive(false);
+                PlaceNoObject();
+            }
+        }
+
+        if (bookshelfButtonClicked == true)
+        {
+            bookshelfPreview.SetActive(true);
+
+            if (Mouse.current.leftButton.wasPressedThisFrame)
+            {
+                Instantiate(bookshelf);
+                bookshelfPreview.SetActive(false);
+                PlaceNoObject();
+            }
         }
     }
 
