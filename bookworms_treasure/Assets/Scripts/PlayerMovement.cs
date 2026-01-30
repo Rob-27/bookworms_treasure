@@ -1,46 +1,35 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.EventSystems;
 
 public class PlayerMovement : MonoBehaviour
 {
-    //private float walkableHeight = 70;
-    //private float walkableWidth = 90;
+    float movementSpeed = 3.0f;
 
     private Rigidbody2D rb;
 
-    private float speed = 2.0f;
-
-    public Vector2 startingPosition;
-    public Vector2 directionTopRight;
-    public Vector2 directionTopLeft;
-    public Vector2 directionBottomLeft;
-    public Vector2 directionBottomRight;
-
-    private void Awake()
+    void Start()
     {
-        //rb = GetComponent<Rigidbody2D>();
-        //startingPosition = new Vector2(0, 0);
-    }
 
-    private void OnEnable()
-    {
-        directionTopRight = new Vector2(2, 1);
-        directionBottomRight = new Vector2(2, -1);
-        directionTopLeft = new Vector2(-2, 1);
-        directionBottomLeft = new Vector2(-2, -1);
+        rb = GetComponent<Rigidbody2D>();
+
+        InvokeRepeating("StopMoving", 2, 4);
+        InvokeRepeating("Move", 0, 4);
     }
 
     void Update()
     {
-        transform.Translate(directionTopLeft * speed * Time.deltaTime);
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    public void StopMoving()
     {
-        if (other.CompareTag("Obstacle"))
-        {
-            Debug.Log("Obstacle detected");
-        }
+        rb.linearVelocity = new Vector2(0, 0);
+    }
+
+    public void Move()
+    {
+        Vector2[] possibleDirections = { new Vector2(2, 1), new Vector2(2, -1), new Vector2(-2, 1), new Vector2(-2, -1) };
+        int indexNumber = Random.Range(0, 4);
+        Vector2 randomDirection = possibleDirections[indexNumber];
+        rb.linearVelocity = randomDirection * movementSpeed;
     }
 }
