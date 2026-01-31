@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class PlayerMovement : MonoBehaviour
+public class CharacterMovement : MonoBehaviour
 {
     float movementSpeed = 3.0f;
 
@@ -9,7 +9,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-
         rb = GetComponent<Rigidbody2D>();
 
         InvokeRepeating("StopMoving", 2, 4);
@@ -29,7 +28,17 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector2[] possibleDirections = { new Vector2(2, 1), new Vector2(2, -1), new Vector2(-2, 1), new Vector2(-2, -1) };
         int indexNumber = Random.Range(0, 4);
-        Vector2 randomDirection = possibleDirections[indexNumber];
-        rb.linearVelocity = randomDirection * movementSpeed;
+        Vector2 direction = possibleDirections[indexNumber];
+        rb.linearVelocity = direction * movementSpeed;
+
+        if (direction == possibleDirections[0] || direction == possibleDirections[1])
+        {
+            transform.rotation = Quaternion.Euler(0, 180f, 0);
+        }
+
+        else if (direction == possibleDirections[2] || direction == possibleDirections[3])
+        {
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+        }
     }
 }
