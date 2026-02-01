@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 public class ObjectBehaviour : MonoBehaviour, IPointerClickHandler
 {
     public static GameObject furnitureParent;
-    public static GameObject inventoryMenu;
+    public static GameObject buildingModeObject;
     public static ObjectPlacing buildingMode;
     public bool isFlipped = false;
 
@@ -15,8 +15,8 @@ public class ObjectBehaviour : MonoBehaviour, IPointerClickHandler
         Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
 
         furnitureParent = GameObject.FindWithTag("FurnitureParent");
-        inventoryMenu = GameObject.FindWithTag("BuildingMode");
-        buildingMode = inventoryMenu.GetComponent<ObjectPlacing>();
+        buildingModeObject = GameObject.FindWithTag("BuildingMode");
+        buildingMode = buildingModeObject.GetComponent<ObjectPlacing>();
         this.transform.parent = furnitureParent.transform;
         this.transform.localScale = new Vector3 (1, 1, 1);
         this.transform.position = new Vector3(mouseWorldPos.x, mouseWorldPos.y, 0);
