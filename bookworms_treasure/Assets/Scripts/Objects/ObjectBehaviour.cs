@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.EventSystems;
 
-public class ObjectBehaviour : MonoBehaviour, IPointerClickHandler
+public class ObjectBehaviour : MonoBehaviour, IPointerClickHandler, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
     public static GameObject furnitureParent;
     public static GameObject buildingModeObject;
@@ -20,11 +20,6 @@ public class ObjectBehaviour : MonoBehaviour, IPointerClickHandler
         this.transform.parent = furnitureParent.transform;
         this.transform.localScale = new Vector3 (1, 1, 1);
         this.transform.position = new Vector3(mouseWorldPos.x, mouseWorldPos.y, 0);
-    }
-
-    void Update()
-    {
-
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -53,5 +48,29 @@ public class ObjectBehaviour : MonoBehaviour, IPointerClickHandler
             isFlipped = false;
             transform.rotation = Quaternion.Euler(0, 0, 0);
         }
+    }
+
+    public void OnBeginDrag(PointerEventData eventData)
+    {
+        if (buildingMode.moveObjectMode == true)
+        {
+            Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+            transform.position = new Vector3(mouseWorldPos.x, mouseWorldPos.y, 0);
+        }
+    }
+
+    public void OnDrag(PointerEventData eventData)
+    {
+        if (buildingMode.moveObjectMode == true)
+        {
+            Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+            transform.position = new Vector3(mouseWorldPos.x, mouseWorldPos.y, 0);
+        }
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+        transform.position = new Vector3(mouseWorldPos.x, mouseWorldPos.y, 0);
     }
 }

@@ -22,6 +22,7 @@ public class ObjectPlacing : MonoBehaviour
     public bool noObjectToPlace = true;
     public bool deleteObjectMode = false;
     public bool flipObjectMode = false;
+    public bool moveObjectMode = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -40,6 +41,13 @@ public class ObjectPlacing : MonoBehaviour
         }
 
         if (flipObjectMode == true)
+        {
+            poolTableButton.enabled = false;
+            armchairButton.enabled = false;
+            bookshelfButton.enabled = false;
+        }
+
+        if (moveObjectMode == true)
         {
             poolTableButton.enabled = false;
             armchairButton.enabled = false;
@@ -98,6 +106,7 @@ public class ObjectPlacing : MonoBehaviour
         bookshelfButtonClicked = false;
         deleteObjectMode = false;
         flipObjectMode = false;
+        moveObjectMode = false;
     }
 
     public void ArmchairButton()
@@ -108,6 +117,7 @@ public class ObjectPlacing : MonoBehaviour
         bookshelfButtonClicked = false;
         deleteObjectMode = false;
         flipObjectMode = false;
+        moveObjectMode = false;
     }
 
     public void BookshelfButton()
@@ -118,6 +128,7 @@ public class ObjectPlacing : MonoBehaviour
         bookshelfButtonClicked = true;
         deleteObjectMode = false;
         flipObjectMode = false;
+        moveObjectMode = false;
     }
 
     public void PlaceNoObject()
@@ -128,6 +139,7 @@ public class ObjectPlacing : MonoBehaviour
         bookshelfButtonClicked = false;
         deleteObjectMode = false;
         flipObjectMode = false;
+        moveObjectMode = false;
     }
 
     public void DeleteObject()
@@ -138,6 +150,7 @@ public class ObjectPlacing : MonoBehaviour
         bookshelfButtonClicked = false;
         deleteObjectMode = true;
         flipObjectMode = false;
+        moveObjectMode = false;
     }
 
     public void FlipObject()
@@ -148,5 +161,17 @@ public class ObjectPlacing : MonoBehaviour
         bookshelfButtonClicked = false;
         deleteObjectMode = false;
         flipObjectMode = true;
+        moveObjectMode = false;
+    }
+
+    public void MoveObject()
+    {
+        noObjectToPlace = false;
+        poolTableButtonClicked = false;
+        armchairButtonClicked = false;
+        bookshelfButtonClicked = false;
+        deleteObjectMode = false;
+        flipObjectMode = false;
+        moveObjectMode = true;
     }
 }
