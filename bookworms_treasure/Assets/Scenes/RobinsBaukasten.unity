@@ -1204,6 +1204,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Waving_Cat1
       objectReference: {fileID: 0}
+    - target: {fileID: 5835527290155212120, guid: 5c722706bd3711d4b8a3d1067b421173, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15480,7 +15484,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9131633041243618458, guid: cff5408c864c4df4d969c751cc37f694, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
