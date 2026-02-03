@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CoinCounter : MonoBehaviour
 {
-    public int currentCoins = 0;
+    public int currentCoins = 40;
     public RewardManager rewards;
     public GameObject mainView;
     public GameObject bookMessage;
@@ -65,6 +65,11 @@ public class CoinCounter : MonoBehaviour
     public void AddTenCoins()
     {
         currentCoins += 10;
+    }
+
+    public void RemoveFiveCoins()
+    {
+        currentCoins -= 5;
     }
 
     public void RemoveTenCoins()
