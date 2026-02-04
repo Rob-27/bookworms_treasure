@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 77844682d1c3bdb4898d57ac38209cab
+guid: a9d87313ff4ece742b3553179ddbc0c7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 285530689736761005
-    second: IsoTile_wood_light_0
+      213: 3322846594888735237
+    second: Bookshelf_new_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IsoTile_wood_light_0
+      name: Bookshelf_new_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 800
-        height: 400
+        x: 104
+        y: 22
+        width: 594
+        height: 1145
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dae5b3646a866f300800000000000000
-      internalID: 285530689736761005
+      spriteID: 50a95737f5f1d1e20800000000000000
+      internalID: 3322846594888735237
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IsoTile_wood_light_0: 285530689736761005
+      Bookshelf_new_0: 3322846594888735237
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

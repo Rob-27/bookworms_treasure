@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a5b9251938fb5b64ab0e062988246963
+guid: 19bf8ca64b2c6ce4d8c06fcb85d121f8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5868969666548921067
-    second: IsoWallpaper_wood_and_green_0
+      213: -5737247445832251863
+    second: IsoWallpaper_wood_and_green_new_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,11 +96,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IsoWallpaper_wood_and_green_0
+      name: IsoWallpaper_wood_and_green_new_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be2f03c01d4c27150800000000000000
-      internalID: 5868969666548921067
+      spriteID: 926c6a268d33160b0800000000000000
+      internalID: -5737247445832251863
       vertices: []
       indices: 
       edges: []
@@ -125,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e3cd801f845bb014482e573d847713cf
+    spriteID: 3d09fce1236ba9d48ab2f91bcc85a5fd
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IsoWallpaper_wood_and_green_0: 5868969666548921067
+      IsoWallpaper_wood_and_green_new_0: -5737247445832251863
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
