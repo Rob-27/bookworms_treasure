@@ -74954,7 +74954,7 @@ TilemapRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 4.19, y: 2.22, z: 0}
+  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 3
@@ -75970,7 +75970,7 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 99
-    m_Data: {fileID: -8680004169590671351, guid: 1df60d5e142303546b9faa14755d2bb1, type: 3}
+    m_Data: {fileID: -5871718356774725389, guid: 2b2891e930a115144b12a595c5ea47bd, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 99
     m_Data:
@@ -84905,7 +84905,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1923378281
 Transform:
   m_ObjectHideFlags: 0
