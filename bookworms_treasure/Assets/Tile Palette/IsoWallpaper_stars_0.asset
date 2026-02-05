@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Floor_Tile4
+  m_Name: IsoWallpaper_stars_0
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 9096070014327752257, guid: fc8ae3d940158c54db1f13db3eeabc35, type: 3}
+  m_Sprite: {fileID: 4448398961940398107, guid: 31ae329a7e92c6949bb2b71a7a948166, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

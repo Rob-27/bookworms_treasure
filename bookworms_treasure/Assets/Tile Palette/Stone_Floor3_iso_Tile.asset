@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Stone_Floor3_iso_Tile
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: -7242704335187395858, guid: f678f4d68dbcbe84d85c39889eea6c2e, type: 3}
+  m_Sprite: {fileID: -5027079458851023751, guid: d4fd9ea330e1a8947aed8190ebf919ac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

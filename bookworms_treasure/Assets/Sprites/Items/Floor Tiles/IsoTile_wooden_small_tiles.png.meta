@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9508f57bec3437c428fa067b5526f9ff
+guid: fc8ae3d940158c54db1f13db3eeabc35
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2968546786254729182
-    second: Stone_Square_Floor_0
+      213: 9096070014327752257
+    second: IsoTile_wooden_small_tiles_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +97,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stone_Square_Floor_0
+      name: IsoTile_wooden_small_tiles_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 937
-        height: 542
+        width: 800
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: edf27d5f295623920800000000000000
-      internalID: 2968546786254729182
+      spriteID: 14686182c7bbb3e70800000000000000
+      internalID: 9096070014327752257
       vertices: []
       indices: 
       edges: []
@@ -161,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Stone_Square_Floor_0: 2968546786254729182
+      IsoTile_wooden_small_tiles_0: 9096070014327752257
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

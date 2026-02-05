@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1ed9714001928614c9c8e5d2d3219bf3
+guid: d4fd9ea330e1a8947aed8190ebf919ac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -61904801869080028
-    second: Stone_Wallpaper_new_0
+      213: -5027079458851023751
+    second: IsoTile_Stone_floor_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +97,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stone_Wallpaper_new_0
+      name: IsoTile_Stone_floor_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 400
-        height: 1400
-      alignment: 9
-      pivot: {x: 0, y: 0.14285715}
+        width: 800
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42ad3b229e1142ff0800000000000000
-      internalID: -61904801869080028
+      spriteID: 9749585edd93c3ab0800000000000000
+      internalID: -5027079458851023751
       vertices: []
       indices: 
       edges: []
@@ -151,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5d1869d2fdbe9a545b3f5d10f09deb53
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Stone_Wallpaper_new_0: -61904801869080028
+      IsoTile_Stone_floor_0: -5027079458851023751
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
