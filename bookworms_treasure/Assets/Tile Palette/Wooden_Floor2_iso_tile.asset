@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Wooden_Floor2_iso_tile
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: -3720385401457057665, guid: e22a5585d65e8a04e961788e81ea4ab8, type: 3}
+  m_Sprite: {fileID: -8680004169590671351, guid: 1df60d5e142303546b9faa14755d2bb1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

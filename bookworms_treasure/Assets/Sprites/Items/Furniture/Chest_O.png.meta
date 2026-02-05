@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: eb0eed9bf50770245b5bfd5f376bc644
+guid: 5e1bddbf87d9b4d44af04f4ec2422bc9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1495734539988488806
-    second: Bonsai_0
+      213: 4801304842922095193
+    second: Chest_O_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 1100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,14 +126,14 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bonsai_0
+      name: Chest_O_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1112
-        height: 1136
-      alignment: 0
+        width: 978
+        height: 1175
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9d24b15c551e3be0800000000000000
-      internalID: -1495734539988488806
+      spriteID: 952fbb4f059a1a240800000000000000
+      internalID: 4801304842922095193
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 604d9ae1ecb3bb14caf7eb05337c0af9
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bonsai_0: -1495734539988488806
+      Chest_O_0: 4801304842922095193
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

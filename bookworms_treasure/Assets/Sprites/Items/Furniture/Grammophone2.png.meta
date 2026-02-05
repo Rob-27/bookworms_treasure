@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 2b3b5ebd2ac6d184a8876138ce857f66
+guid: 2ce6938cc446eff438975abaf6e2da29
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -572525455744790040
-    second: Chest_C_0
+      213: 8088767836594774247
+    second: Grammophone2_0
+  - first:
+      213: 8578896607998340612
+    second: Grammophone2_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 1000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,23 +129,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Chest_C_0
+      name: Grammophone2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 890
-        height: 863
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        width: 887
+        height: 956
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e19671a12bfd08f0800000000000000
-      internalID: -572525455744790040
+      spriteID: 7e026d2cd73114070800000000000000
+      internalID: 8088767836594774247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grammophone2_1
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 849
+        width: 68
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e6b84130d5e0770800000000000000
+      internalID: 8578896607998340612
       vertices: []
       indices: 
       edges: []
@@ -151,7 +176,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a5c102ac2818bd14c96d8ba3d7ad57dd
+    spriteID: 112c2db94bf24054f8bb754e9d237f29
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +186,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Chest_C_0: -572525455744790040
+      Grammophone2_0: 8088767836594774247
+      Grammophone2_1: 8578896607998340612
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

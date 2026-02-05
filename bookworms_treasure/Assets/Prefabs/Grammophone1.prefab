@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2735125955653561788}
   - component: {fileID: 5058451345821035313}
   - component: {fileID: 1337233214663385561}
+  - component: {fileID: -3552227891699538106}
   m_Layer: 0
   m_Name: Grammophone1
   m_TagString: Untagged
@@ -451,7 +452,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!95 &1337233214663385561
 Animator:
   serializedVersion: 7
@@ -474,3 +475,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-3552227891699538106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9131633041243618458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb50ecb2cb05be9449cfde8b74677cc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectBehaviour
+  isFlipped: 0
