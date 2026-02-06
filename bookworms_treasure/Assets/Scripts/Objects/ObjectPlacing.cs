@@ -10,6 +10,10 @@ public class ObjectPlacing : MonoBehaviour
     public GameObject plant;
     public GameObject couch;
     public GameObject wavingCat;
+    public GameObject workTable;
+    public GameObject grammophone;
+    public GameObject chest;
+    public GameObject dog;
 
     public Button poolTableButton;
     public Button armchairButton;
@@ -17,6 +21,10 @@ public class ObjectPlacing : MonoBehaviour
     public Button plantButton;
     public Button couchButton;
     public Button wavingCatButton;
+    public Button workTableButton;
+    public Button grammophoneButton;
+    public Button chestButton;
+    public Button dogButton;
 
     public GameObject poolTablePreview;
     public GameObject armchairPreview;
@@ -24,6 +32,10 @@ public class ObjectPlacing : MonoBehaviour
     public GameObject plantPreview;
     public GameObject couchPreview;
     public GameObject wavingCatPreview;
+    public GameObject workTablePreview;
+    public GameObject grammophonePreview;
+    public GameObject chestPreview;
+    public GameObject dogPreview;
 
     public bool poolTableButtonClicked = false;
     public bool armchairButtonClicked = false;
@@ -31,58 +43,36 @@ public class ObjectPlacing : MonoBehaviour
     public bool plantButtonClicked = false;
     public bool couchButtonClicked = false;
     public bool wavingCatButtonClicked = false;
+    public bool workTableButtonClicked = false;
+    public bool grammophoneButtonClicked = false;
+    public bool chestButtonClicked = false;
+    public bool dogButtonClicked = false;
     public bool noObjectToPlace = true;
     public bool deleteObjectMode = false;
     public bool flipObjectMode = false;
     public bool moveObjectMode = false;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
     {
         if (deleteObjectMode == true)
         {
-            poolTableButton.enabled = false;
-            armchairButton.enabled = false;
-            bookshelfButton.enabled = false;
-            plantButton.enabled = false;
-            couchButton.enabled = false;
-            wavingCatButton.enabled = false;
+            DisableButtons();
         }
 
         if (flipObjectMode == true)
         {
-            poolTableButton.enabled = false;
-            armchairButton.enabled = false;
-            bookshelfButton.enabled = false;
-            plantButton.enabled = false;
-            couchButton.enabled = false;
-            wavingCatButton.enabled = false;
+            DisableButtons();
         }
 
         if (moveObjectMode == true)
         {
-            poolTableButton.enabled = false;
-            armchairButton.enabled = false;
-            bookshelfButton.enabled = false;
-            plantButton.enabled = false;
-            couchButton.enabled = false;
-            wavingCatButton.enabled = false;
+            DisableButtons();
         }
 
         if (noObjectToPlace == true)
         {
-            poolTableButton.enabled = true;
-            armchairButton.enabled = true;
-            bookshelfButton.enabled = true;
-            plantButton.enabled = true;
-            couchButton.enabled = true;
-            wavingCatButton.enabled = true;
+            EnableButtons();
         }
 
         if (poolTableButtonClicked == true)
@@ -156,135 +146,169 @@ public class ObjectPlacing : MonoBehaviour
                 PlaceNoObject();
             }
         }
+
+        if (workTableButtonClicked == true)
+        {
+            workTablePreview.SetActive(true);
+
+            if (Mouse.current.leftButton.wasPressedThisFrame)
+            {
+                Instantiate(workTable);
+                workTablePreview.SetActive(false);
+                PlaceNoObject();
+            }
+        }
+
+        if (grammophoneButtonClicked == true)
+        {
+            grammophonePreview.SetActive(true);
+
+            if (Mouse.current.leftButton.wasPressedThisFrame)
+            {
+                Instantiate(grammophone);
+                grammophonePreview.SetActive(false);
+                PlaceNoObject();
+            }
+        }
+
+        if (chestButtonClicked == true)
+        {
+            chestPreview.SetActive(true);
+
+            if (Mouse.current.leftButton.wasPressedThisFrame)
+            {
+                Instantiate(chest);
+                chestPreview.SetActive(false);
+                PlaceNoObject();
+            }
+        }
+
+        if (dogButtonClicked == true)
+        {
+            dogPreview.SetActive(true);
+
+            if (Mouse.current.leftButton.wasPressedThisFrame)
+            {
+                Instantiate(dog);
+                dogPreview.SetActive(false);
+                PlaceNoObject();
+            }
+        }
     }
 
     public void PoolTableButton()
     {
-        noObjectToPlace = false;
+        SetAllStatesToFalse();
         poolTableButtonClicked = true;
-        armchairButtonClicked = false;
-        bookshelfButtonClicked = false;
-        plantButtonClicked = false;
-        couchButtonClicked = false;
-        wavingCatButtonClicked = false;
-        deleteObjectMode = false;
-        flipObjectMode = false;
-        moveObjectMode = false;
     }
 
     public void ArmchairButton()
     {
-        noObjectToPlace = false;
-        poolTableButtonClicked = false;
+        SetAllStatesToFalse();
         armchairButtonClicked = true;
-        bookshelfButtonClicked = false;
-        plantButtonClicked = false;
-        couchButtonClicked = false;
-        wavingCatButtonClicked = false;
-        deleteObjectMode = false;
-        flipObjectMode = false;
-        moveObjectMode = false;
     }
 
     public void BookshelfButton()
     {
-        noObjectToPlace = false;
-        poolTableButtonClicked = false;
-        armchairButtonClicked = false;
-        plantButtonClicked = false;
+        SetAllStatesToFalse();
         bookshelfButtonClicked = true;
-        couchButtonClicked = false;
-        wavingCatButtonClicked = false;
-        deleteObjectMode = false;
-        flipObjectMode = false;
-        moveObjectMode = false;
     }
 
     public void PlantButton()
     {
-        noObjectToPlace = false;
-        poolTableButtonClicked = false;
-        armchairButtonClicked = false;
-        bookshelfButtonClicked = false;
+        SetAllStatesToFalse();
         plantButtonClicked = true;
-        couchButtonClicked = false;
-        wavingCatButtonClicked = false;
-        deleteObjectMode = false;
-        flipObjectMode = false;
-        moveObjectMode = false;
     }
 
     public void CouchButton()
     {
-        noObjectToPlace = false;
-        poolTableButtonClicked = false;
-        armchairButtonClicked = false;
-        bookshelfButtonClicked = false;
-        plantButtonClicked = false;
+        SetAllStatesToFalse();
         couchButtonClicked = true;
-        wavingCatButtonClicked = false;
-        deleteObjectMode = false;
-        flipObjectMode = false;
-        moveObjectMode = false;
     }
 
     public void WavingCatButton()
     {
-        noObjectToPlace = false;
-        poolTableButtonClicked = false;
-        armchairButtonClicked = false;
-        bookshelfButtonClicked = false;
-        plantButtonClicked = false;
-        couchButtonClicked = false;
+        SetAllStatesToFalse();
         wavingCatButtonClicked = true;
-        deleteObjectMode = false;
-        flipObjectMode = false;
-        moveObjectMode = false;
+    }
+
+    public void WorkTableButton()
+    {
+        SetAllStatesToFalse();
+        workTableButtonClicked = true;
+    }
+
+    public void GrammophoneButton()
+    {
+        SetAllStatesToFalse();
+        grammophoneButtonClicked = true;
+    }
+
+    public void ChestButton()
+    {
+        SetAllStatesToFalse();
+        chestButtonClicked = true;
+    }
+
+    public void DogButton()
+    {
+        SetAllStatesToFalse();
+        dogButtonClicked = true;
     }
 
     public void PlaceNoObject()
     {
+        SetAllStatesToFalse();
         noObjectToPlace = true;
-        poolTableButtonClicked = false;
-        armchairButtonClicked = false;
-        bookshelfButtonClicked = false;
-        plantButtonClicked = false;
-        couchButtonClicked = false;
-        wavingCatButtonClicked = false;
-        deleteObjectMode = false;
-        flipObjectMode = false;
-        moveObjectMode = false;
     }
 
     public void DeleteObject()
     {
-        noObjectToPlace = false;
-        poolTableButtonClicked = false;
-        armchairButtonClicked = false;
-        bookshelfButtonClicked = false;
-        plantButtonClicked = false;
-        couchButtonClicked = false;
-        wavingCatButtonClicked = false;
+        SetAllStatesToFalse();
         deleteObjectMode = true;
-        flipObjectMode = false;
-        moveObjectMode = false;
     }
 
     public void FlipObject()
     {
-        noObjectToPlace = false;
-        poolTableButtonClicked = false;
-        armchairButtonClicked = false;
-        bookshelfButtonClicked = false;
-        plantButtonClicked = false;
-        couchButtonClicked = false;
-        wavingCatButtonClicked = false;
-        deleteObjectMode = false;
+        SetAllStatesToFalse();
         flipObjectMode = true;
-        moveObjectMode = false;
     }
 
     public void MoveObject()
+    {
+        SetAllStatesToFalse();
+        moveObjectMode = true;
+    }
+
+    public void DisableButtons()
+    {
+        poolTableButton.enabled = false;
+        armchairButton.enabled = false;
+        bookshelfButton.enabled = false;
+        plantButton.enabled = false;
+        couchButton.enabled = false;
+        wavingCatButton.enabled = false;
+        workTableButton.enabled = false;
+        grammophoneButton.enabled = false;
+        chestButton.enabled = false;
+        dogButton.enabled = false;
+    }
+
+    public void EnableButtons()
+    {
+    poolTableButton.enabled = true;
+    armchairButton.enabled = true;
+    bookshelfButton.enabled = true;
+    plantButton.enabled = true;
+    couchButton.enabled = true;
+    wavingCatButton.enabled = true;
+    workTableButton.enabled = true;
+    grammophoneButton.enabled = true;
+    chestButton.enabled = true;
+    dogButton.enabled = true;
+}
+
+    public void SetAllStatesToFalse()
     {
         noObjectToPlace = false;
         poolTableButtonClicked = false;
@@ -293,8 +317,12 @@ public class ObjectPlacing : MonoBehaviour
         plantButtonClicked = false;
         couchButtonClicked = false;
         wavingCatButtonClicked = false;
+        workTableButtonClicked = false;
+        grammophoneButtonClicked = false;
+        chestButtonClicked = false;
+        dogButtonClicked = false;
         deleteObjectMode = false;
         flipObjectMode = false;
-        moveObjectMode = true;
+        moveObjectMode = false;
     }
 }
