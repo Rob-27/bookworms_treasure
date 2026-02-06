@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.2D.Animation.Runtime::UnityEngine.U2D.Animation.SpriteLibrarySourceAsset
+  m_Library:
+  - m_Name: New Category
+    m_Hash: 259530823
+    m_CategoryList: []
+    m_OverrideEntries: []
+    m_FromMain: 0
+    m_EntryOverrideCount: 0
+  - m_Name: Eyes
+    m_Hash: 120101800
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: New Label
+      m_Hash: 259326342
+      m_Sprite: {fileID: 3687732794830198564, guid: 3576b969cb3ee194f9ee7bf325b48d38, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3687732794830198564, guid: 3576b969cb3ee194f9ee7bf325b48d38, type: 3}
+    - m_Name: New Label_0
+      m_Hash: 16589798
+      m_Sprite: {fileID: -8719404944499552255, guid: 3576b969cb3ee194f9ee7bf325b48d38, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8719404944499552255, guid: 3576b969cb3ee194f9ee7bf325b48d38, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: Mouth
+    m_Hash: 520385427
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: New Label
+      m_Hash: 259326342
+      m_Sprite: {fileID: -1860291095071104439, guid: 3576b969cb3ee194f9ee7bf325b48d38, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1860291095071104439, guid: 3576b969cb3ee194f9ee7bf325b48d38, type: 3}
+    - m_Name: New Label_0
+      m_Hash: 16589798
+      m_Sprite: {fileID: 4355917398074907051, guid: 3576b969cb3ee194f9ee7bf325b48d38, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4355917398074907051, guid: 3576b969cb3ee194f9ee7bf325b48d38, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 639059652294402519
+  m_Version: 1
