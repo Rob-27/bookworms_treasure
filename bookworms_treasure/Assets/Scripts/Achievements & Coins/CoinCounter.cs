@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CoinCounter : MonoBehaviour
 {
-    public int currentCoins = 40;
+    public int currentCoins = 60;
     public RewardManager rewards;
     public GameObject mainView;
     public GameObject bookMessage;
@@ -27,7 +27,7 @@ public class CoinCounter : MonoBehaviour
         {
             if (rewards.finishedSherlock == true && gotCoinsForSherlock == false)
             {
-                AddTenCoins();
+                AddTwentyCoins();
                 eBookMenu.SetActive(false);
                 bookMessage.SetActive(true);
                 gotCoinsForSherlock = true;
@@ -36,7 +36,7 @@ public class CoinCounter : MonoBehaviour
 
             if (rewards.finishedOdyssey == true && gotCoinsForOdyssey == false)
             {
-                AddTenCoins();
+                AddTwentyCoins();
                 eBookMenu.SetActive(false);
                 bookMessage.SetActive(true);
                 gotCoinsForOdyssey = true;
@@ -45,7 +45,7 @@ public class CoinCounter : MonoBehaviour
 
             if (rewards.finishedSnowWhite == true && gotCoinsForSnowWhite == false)
             {
-                AddTenCoins();
+                AddTwentyCoins();
                 eBookMenu.SetActive(false);
                 bookMessage.SetActive(true);
                 gotCoinsForSnowWhite = true;
@@ -54,7 +54,7 @@ public class CoinCounter : MonoBehaviour
 
             if (rewards.beatQuotesQuiz == true && gotCoinsForQuotesQuiz == false)
             {
-                AddTenCoins();
+                AddTwentyCoins();
                 gamesMenu.SetActive(false);
                 quizMessage.SetActive(true);
                 gotCoinsForQuotesQuiz = true;
@@ -62,9 +62,9 @@ public class CoinCounter : MonoBehaviour
         }
     }
 
-    public void AddTenCoins()
+    public void AddTwentyCoins()
     {
-        currentCoins += 10;
+        currentCoins += 20;
     }
 
     public void RemoveFiveCoins()
