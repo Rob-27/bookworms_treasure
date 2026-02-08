@@ -6,19 +6,12 @@ using UnityEngine.UI;
 public class UIController : MonoBehaviour
 {
     public GameObject inventoryMenu;
-
     public GameObject booksMenu;
-
     public GameObject profileMenu;
-
     public GameObject minigameMenu;
-
     public GameObject friendMenu;
-
     public GameObject buildingMode;
-
     public GameObject hideInventory;
-
     public GameObject shopMenu;
 
 

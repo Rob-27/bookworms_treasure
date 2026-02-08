@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b00efb21b4ce3f544b02a4c9695bda6e
+guid: 78d18b4f572a4a24984a9912f2af5f5b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3483158521792860677
-    second: Shop_Button_0
+      213: -7983576350815935646
+    second: Profil_Icon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +97,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shop_Button_0
+      name: Profil_Icon_0
       rect:
         serializedVersion: 2
-        x: 132
-        y: 72
-        width: 181
-        height: 189
+        x: 0
+        y: 0
+        width: 788
+        height: 732
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50296d3983aa65030800000000000000
-      internalID: 3483158521792860677
+      spriteID: 26328649b93a43190800000000000000
+      internalID: -7983576350815935646
       vertices: []
       indices: 
       edges: []
@@ -161,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Shop_Button_0: 3483158521792860677
+      Profil_Icon_0: -7983576350815935646
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

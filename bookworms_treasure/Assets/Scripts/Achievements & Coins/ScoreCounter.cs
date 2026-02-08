@@ -9,6 +9,7 @@ public class ScoreCounter : MonoBehaviour
 
     public RewardManager rewards;
 
+
     void Start()
     {
         scoreText = gameObject.GetComponent<TMP_Text>();
@@ -37,8 +38,11 @@ public class ScoreCounter : MonoBehaviour
         }
     }
 
-    public static void ResetScore()
+    public static void ResetQuiz()
     {
         scoredPoints = 0;
+        scoreText.text = "0";
+        GameObject quizQuestion = GameObject.FindWithTag("QuizQuestion");
+        quizQuestion.SetActive(false);
     }
 }

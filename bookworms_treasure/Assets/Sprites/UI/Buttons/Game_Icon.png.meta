@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cac7ab9b014f3d548ba1037dd56bbe35
+guid: 9fc58b255b54094468319d8c641badfa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3466639124500408034
-    second: Element 10_0
+      213: -2278264054925010834
+    second: Game_Icon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +97,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,45 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Element 10_0
+      name: Game_Icon_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
-        width: 181
-        height: 186
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 20, y: 20, z: 20, w: 20}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e6615caae9fb1030800000000000000
-      internalID: 3466639124500408034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Element 10_1
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 91
-        width: 11
-        height: 2
+        width: 785
+        height: 675
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3699c6e3d3dcb0147ade14c4f0181c26
-      internalID: 1459813726
+      spriteID: e6857ada9eaf160e0800000000000000
+      internalID: -2278264054925010834
       vertices: []
       indices: 
       edges: []
@@ -173,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c0ce275a58948874facbd59b34936736
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -183,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Element 10_0: 3466639124500408034
-      Element 10_1: 1459813726
+      Game_Icon_0: -2278264054925010834
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

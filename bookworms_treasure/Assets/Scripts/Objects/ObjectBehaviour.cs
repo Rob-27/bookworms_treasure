@@ -26,15 +26,18 @@ public class ObjectBehaviour : MonoBehaviour, IPointerClickHandler, IDragHandler
     {
         if (other.CompareTag("Blocked"))
         {
+            PlayDeleteSound();
             Destroy(gameObject);
         }
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
+
         if (buildingMode.deleteObjectMode == true)
         {
-           Destroy(gameObject);
+            PlayDeleteSound();
+            Destroy(gameObject);
         }
 
         if (buildingMode.flipObjectMode == true && isFlipped == false)
@@ -72,5 +75,12 @@ public class ObjectBehaviour : MonoBehaviour, IPointerClickHandler, IDragHandler
     {
         Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
         transform.position = new Vector3(mouseWorldPos.x, mouseWorldPos.y, 0);
+    }
+
+    public void PlayDeleteSound()
+    {
+        GameObject soundObject = GameObject.FindWithTag("DeleteSound");
+        AudioSource deleteSound = soundObject.GetComponent<AudioSource>();
+        deleteSound.Play();
     }
 }

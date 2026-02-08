@@ -12,6 +12,8 @@ TagManager:
   - Blocked
   - BuildingMode
   - Obstacle
+  - DeleteSound
+  - QuizQuestion
   layers:
   - Default
   - TransparentFX

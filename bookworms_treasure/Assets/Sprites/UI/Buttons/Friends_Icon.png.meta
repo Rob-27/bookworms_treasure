@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 711b56364402f574b9d4e2a4e6aea106
+guid: b4933b2a06d76b147a67d25704510e9e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5833922863904976834
-    second: Element 12_0
+      213: 6165814418345505990
+    second: Friends_Icon_0
+  - first:
+      213: 6322331722904819761
+    second: Friends_Icon_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -97,19 +100,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,23 +116,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Element 12_0
+      name: Friends_Icon_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 179
-        height: 186
+        width: 290
+        height: 443
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 20, y: 20, z: 20, w: 20}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2cfe51e6fe146f050800000000000000
-      internalID: 5833922863904976834
+      spriteID: 6c4377cab8f519550800000000000000
+      internalID: 6165814418345505990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Friends_Icon_1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1
+        width: 290
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138dcef643f6db750800000000000000
+      internalID: 6322331722904819761
       vertices: []
       indices: 
       edges: []
@@ -151,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fc1d258fc51dd0649aeee43650eb0a39
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Element 12_0: 5833922863904976834
+      Friends_Icon_0: 6165814418345505990
+      Friends_Icon_1: 6322331722904819761
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

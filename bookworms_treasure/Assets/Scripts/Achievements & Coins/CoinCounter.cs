@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CoinCounter : MonoBehaviour
 {
-    public int currentCoins = 60;
+    public int currentCoins = 100;
     public RewardManager rewards;
     public GameObject mainView;
     public GameObject bookMessage;
@@ -15,19 +15,38 @@ public class CoinCounter : MonoBehaviour
     public bool gotCoinsForSnowWhite = false;
     public bool gotCoinsForQuotesQuiz = false;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public bool coinsUnder5 = false;
+    public bool noCoinsLeft = false;
+
     void Start()
     {
     }
 
-    // Update is called once per frame
     void Update()
     {
+        if (currentCoins >= 5)
+        {
+            coinsUnder5 = false;
+            noCoinsLeft = false;
+        }
+
+        else if (currentCoins < 5 && currentCoins > 0)
+        {
+            coinsUnder5 = true;
+            noCoinsLeft = false;
+        }
+
+        else if (currentCoins == 0)
+        {
+            noCoinsLeft = true;
+            coinsUnder5 = true;
+        }
+
         if (mainView.activeSelf == true)
         {
             if (rewards.finishedSherlock == true && gotCoinsForSherlock == false)
             {
-                AddTwentyCoins();
+                AddThirtyCoins();
                 eBookMenu.SetActive(false);
                 bookMessage.SetActive(true);
                 gotCoinsForSherlock = true;
@@ -36,7 +55,7 @@ public class CoinCounter : MonoBehaviour
 
             if (rewards.finishedOdyssey == true && gotCoinsForOdyssey == false)
             {
-                AddTwentyCoins();
+                AddThirtyCoins();
                 eBookMenu.SetActive(false);
                 bookMessage.SetActive(true);
                 gotCoinsForOdyssey = true;
@@ -45,7 +64,7 @@ public class CoinCounter : MonoBehaviour
 
             if (rewards.finishedSnowWhite == true && gotCoinsForSnowWhite == false)
             {
-                AddTwentyCoins();
+                AddThirtyCoins();
                 eBookMenu.SetActive(false);
                 bookMessage.SetActive(true);
                 gotCoinsForSnowWhite = true;
@@ -54,7 +73,7 @@ public class CoinCounter : MonoBehaviour
 
             if (rewards.beatQuotesQuiz == true && gotCoinsForQuotesQuiz == false)
             {
-                AddTwentyCoins();
+                AddThirtyCoins();
                 gamesMenu.SetActive(false);
                 quizMessage.SetActive(true);
                 gotCoinsForQuotesQuiz = true;
@@ -62,19 +81,25 @@ public class CoinCounter : MonoBehaviour
         }
     }
 
-    public void AddTwentyCoins()
+    public void AddThirtyCoins()
     {
-        currentCoins += 20;
+        currentCoins += 30;
+        AudioSource coinSound = GetComponent<AudioSource>();
+        coinSound.Play();
     }
 
     public void RemoveFiveCoins()
     {
         currentCoins -= 5;
+        AudioSource coinSound = GetComponent<AudioSource>();
+        coinSound.Play();
     }
 
     public void RemoveTenCoins()
     {
         currentCoins -= 10;
+        AudioSource coinSound = GetComponent<AudioSource>();
+        coinSound.Play();
     }
 
 }

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6aff52a17e180814998f48a9c0eed06e
+guid: 5dd50e976904f3249b8a1d6a146d6c4f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7253026434465650959
-    second: Element 14_0
+      213: 8230294356389373900
+    second: E-reader_Icon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +97,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Element 14_0
+      name: E-reader_Icon_0
       rect:
         serializedVersion: 2
-        x: 33
+        x: 0
         y: 0
-        width: 181
-        height: 187
+        width: 1272
+        height: 1066
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f62823d2e2185b90800000000000000
-      internalID: -7253026434465650959
+      spriteID: cc7ad757c11e73270800000000000000
+      internalID: 8230294356389373900
       vertices: []
       indices: 
       edges: []
@@ -151,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 25996a79e3449c3438f358e641af4763
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Element 14_0: -7253026434465650959
+      E-reader_Icon_0: 8230294356389373900
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
