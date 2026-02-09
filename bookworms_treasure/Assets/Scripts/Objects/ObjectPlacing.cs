@@ -14,6 +14,8 @@ public class ObjectPlacing : MonoBehaviour
     public GameObject grammophone;
     public GameObject chest;
     public GameObject dog;
+    public GameObject statue;
+    public GameObject mirror;
 
     public Button poolTableButton;
     public Button armchairButton;
@@ -25,6 +27,8 @@ public class ObjectPlacing : MonoBehaviour
     public Button grammophoneButton;
     public Button chestButton;
     public Button dogButton;
+    public Button statueButton;
+    public Button mirrorButton;
 
     public GameObject poolTablePreview;
     public GameObject armchairPreview;
@@ -36,6 +40,8 @@ public class ObjectPlacing : MonoBehaviour
     public GameObject grammophonePreview;
     public GameObject chestPreview;
     public GameObject dogPreview;
+    public GameObject statuePreview;
+    public GameObject mirrorPreview;
 
     public bool poolTableButtonClicked = false;
     public bool armchairButtonClicked = false;
@@ -47,6 +53,8 @@ public class ObjectPlacing : MonoBehaviour
     public bool grammophoneButtonClicked = false;
     public bool chestButtonClicked = false;
     public bool dogButtonClicked = false;
+    public bool statueButtonClicked = false;
+    public bool mirrorButtonClicked = false;
     public bool noObjectToPlace = true;
     public bool deleteObjectMode = false;
     public bool flipObjectMode = false;
@@ -194,6 +202,30 @@ public class ObjectPlacing : MonoBehaviour
                 PlaceNoObject();
             }
         }
+
+        if (statueButtonClicked == true)
+        {
+            statuePreview.SetActive(true);
+
+            if (Mouse.current.leftButton.wasPressedThisFrame)
+            {
+                Instantiate(statue);
+                statuePreview.SetActive(false);
+                PlaceNoObject();
+            }
+        }
+
+        if (mirrorButtonClicked == true)
+        {
+            mirrorPreview.SetActive(true);
+
+            if (Mouse.current.leftButton.wasPressedThisFrame)
+            {
+                Instantiate(mirror);
+                mirrorPreview.SetActive(false);
+                PlaceNoObject();
+            }
+        }
     }
 
     public void PoolTableButton()
@@ -256,6 +288,18 @@ public class ObjectPlacing : MonoBehaviour
         dogButtonClicked = true;
     }
 
+    public void StatueButton()
+    {
+        SetAllStatesToFalse();
+        statueButtonClicked = true;
+    }
+
+    public void MirrorButton()
+    {
+        SetAllStatesToFalse();
+        mirrorButtonClicked = true;
+    }
+
     public void PlaceNoObject()
     {
         SetAllStatesToFalse();
@@ -292,21 +336,25 @@ public class ObjectPlacing : MonoBehaviour
         grammophoneButton.enabled = false;
         chestButton.enabled = false;
         dogButton.enabled = false;
+        statueButton.enabled = false;
+        mirrorButton.enabled = false;
     }
 
     public void EnableButtons()
     {
-    poolTableButton.enabled = true;
-    armchairButton.enabled = true;
-    bookshelfButton.enabled = true;
-    plantButton.enabled = true;
-    couchButton.enabled = true;
-    wavingCatButton.enabled = true;
-    workTableButton.enabled = true;
-    grammophoneButton.enabled = true;
-    chestButton.enabled = true;
-    dogButton.enabled = true;
-}
+        poolTableButton.enabled = true;
+        armchairButton.enabled = true;
+        bookshelfButton.enabled = true;
+        plantButton.enabled = true;
+        couchButton.enabled = true;
+        wavingCatButton.enabled = true;
+        workTableButton.enabled = true;
+        grammophoneButton.enabled = true;
+        chestButton.enabled = true;
+        dogButton.enabled = true;
+        statueButton.enabled = true;
+        mirrorButton.enabled = true;
+    }
 
     public void SetAllStatesToFalse()
     {
@@ -321,6 +369,8 @@ public class ObjectPlacing : MonoBehaviour
         grammophoneButtonClicked = false;
         chestButtonClicked = false;
         dogButtonClicked = false;
+        statueButtonClicked = false;
+        mirrorButtonClicked = false;
         deleteObjectMode = false;
         flipObjectMode = false;
         moveObjectMode = false;
