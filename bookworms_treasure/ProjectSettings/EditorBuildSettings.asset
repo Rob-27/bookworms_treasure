@@ -5,21 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/SimonsBaukasten.unity
-    guid: 98e2a24a5c864a14aa8afae615ab8995
-  - enabled: 0
-    path: Assets/Scenes/EBookSherlockHolmes.unity
-    guid: 73ef22cb3ce3e3a4b924c5c7d5540a55
-  - enabled: 0
-    path: Assets/Scenes/EBookOdyssey.unity
-    guid: fd4f98d6bda2a7a40ba71f23ba20296d
-  - enabled: 0
-    path: Assets/Scenes/EBookSnowWhite.unity
-    guid: f4ebe4990e16309489697948b6e766ff
+    path: Assets/Scenes/BookwormsTreasureMainScene.unity
+    guid: 806f5c6931c925642b5b5299adb9a9c1
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 0c04cd6a8d0e1694daee1cb2d1912c46, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 03dadc28a0c3ab440864790ed33729ad
+guid: b214c616d3f2752478b6e034c7a65781
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 61506194941554554
-    second: Ninja_0
+      213: -2902437531169457991
+    second: SnowWhiteWorm_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ninja_0
+      name: SnowWhiteWorm_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 210
-        height: 210
+        x: 56
+        y: 137
+        width: 736
+        height: 656
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7f2af4fe838ad000800000000000000
-      internalID: 61506194941554554
+      spriteID: 9b8f1e3717878b7d0800000000000000
+      internalID: -2902437531169457991
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ninja_0: 61506194941554554
+      SnowWhiteWorm_0: -2902437531169457991
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

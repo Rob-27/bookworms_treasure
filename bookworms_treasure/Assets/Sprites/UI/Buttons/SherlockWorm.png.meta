@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 30a88895850508948a6ab090c2552b2d
+guid: 458a6157066d1c446bd61fd68493f475
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3989258117654883039
-    second: Rockstar_0
+      213: 4639070672752174966
+    second: SherlockWorm_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rockstar_0
+      name: SherlockWorm_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 175
-        height: 175
+        x: 79
+        y: 94
+        width: 737
+        height: 711
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fdaa92c3f11bc5730800000000000000
-      internalID: 3989258117654883039
+      spriteID: 6776351b23a416040800000000000000
+      internalID: 4639070672752174966
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Rockstar_0: 3989258117654883039
+      SherlockWorm_0: 4639070672752174966
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
