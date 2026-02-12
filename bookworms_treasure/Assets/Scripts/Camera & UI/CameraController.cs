@@ -3,9 +3,11 @@ using UnityEngine.InputSystem;
 
 public class CameraController : MonoBehaviour
 {
+    float speed = 20.0f;
+
     InputAction moveAction;
 
-    float speed = 20.0f;
+    public GameObject profileMenu;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -16,9 +18,17 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-Vector2 moveValue = moveAction.ReadValue<Vector2>();
-
+        Vector2 moveValue = moveAction.ReadValue<Vector2>();
         transform.Translate(moveValue * speed * Time.deltaTime);
+        if (profileMenu.activeSelf == false)
+        {
+            speed = 20.0f;
+        }
+
+        else if (profileMenu.activeSelf == true)
+        {
+            speed = 0.0f;
+        }
     }
 
     void LateUpdate ()

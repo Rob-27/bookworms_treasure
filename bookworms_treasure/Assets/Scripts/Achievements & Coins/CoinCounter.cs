@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CoinCounter : MonoBehaviour
 {
-    public int currentCoins = 100;
+    public int currentCoins = 120;
     public RewardManager rewards;
     public GameObject mainView;
     public GameObject bookMessage;
