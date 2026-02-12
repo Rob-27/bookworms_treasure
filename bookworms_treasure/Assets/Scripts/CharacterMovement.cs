@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 
 public class CharacterMovement : MonoBehaviour
 {
-    float movementSpeed = 3.0f;
+    float movementSpeed = 1.0f;
 
     private Rigidbody2D rb;
 
