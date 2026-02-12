@@ -3,9 +3,11 @@ using UnityEngine.EventSystems;
 
 public class CharacterMovement : MonoBehaviour
 {
-    float movementSpeed = 1.0f;
+    float movementSpeed = 2.0f;
 
     private Rigidbody2D rb;
+
+    public GameObject buildingModeObject;
 
     void Start()
     {
@@ -17,6 +19,16 @@ public class CharacterMovement : MonoBehaviour
 
     void Update()
     {
+        if (buildingModeObject.activeSelf == true)
+        {
+            rb.constraints = RigidbodyConstraints2D.FreezePosition;
+            rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        }
+
+        else if (buildingModeObject.activeSelf == false)
+        {
+            rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        }
     }
 
     public void StopMoving()

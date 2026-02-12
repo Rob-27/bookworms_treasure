@@ -8,7 +8,7 @@ public class StartScreen : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Invoke("EnterGame", 2.0f);
+        Invoke("EnterGame", 1.0f);
     }
 
     // Update is called once per frame

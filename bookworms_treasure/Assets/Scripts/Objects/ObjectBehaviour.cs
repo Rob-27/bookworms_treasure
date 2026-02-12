@@ -73,8 +73,11 @@ public class ObjectBehaviour : MonoBehaviour, IPointerClickHandler, IDragHandler
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
-        transform.position = new Vector3(mouseWorldPos.x, mouseWorldPos.y, 0);
+        if (buildingMode.moveObjectMode == true)
+        {
+            Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+            transform.position = new Vector3(mouseWorldPos.x, mouseWorldPos.y, 0);
+        }
     }
 
     public void PlayDeleteSound()

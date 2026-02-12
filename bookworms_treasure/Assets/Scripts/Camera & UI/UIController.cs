@@ -14,7 +14,6 @@ public class UIController : MonoBehaviour
     public GameObject hideInventory;
     public GameObject shopMenu;
 
-
     public void OpenInventory()
     {
        
@@ -125,7 +124,7 @@ public class UIController : MonoBehaviour
             shopMenu.SetActive(false);
         }
 
-        if (shopMenu.activeSelf == false)
+        else if (shopMenu.activeSelf == false)
         {
             inventoryMenu.SetActive(false);
             booksMenu.SetActive(false);
