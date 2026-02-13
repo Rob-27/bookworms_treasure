@@ -13,6 +13,7 @@ public class UIController : MonoBehaviour
     public GameObject buildingMode;
     public GameObject hideInventory;
     public GameObject shopMenu;
+    public GameObject tutorialPanel;
 
     public void OpenInventory()
     {
@@ -34,6 +35,7 @@ public class UIController : MonoBehaviour
             buildingMode.SetActive(true);
             hideInventory.SetActive(true);
             shopMenu.SetActive(false);
+            tutorialPanel.SetActive(false);
         }
     }
 
@@ -54,6 +56,7 @@ public class UIController : MonoBehaviour
             buildingMode.SetActive(false);
             hideInventory.SetActive(false);
             shopMenu.SetActive(false);
+            tutorialPanel.SetActive(false);
         }
     }
 
@@ -74,6 +77,7 @@ public class UIController : MonoBehaviour
             buildingMode.SetActive(false);
             hideInventory.SetActive(false);
             shopMenu.SetActive(false);
+            tutorialPanel.SetActive(false);
         }
     }
 
@@ -94,6 +98,7 @@ public class UIController : MonoBehaviour
             buildingMode.SetActive(false);
             hideInventory.SetActive(false);
             shopMenu.SetActive(false);
+            tutorialPanel.SetActive(false);
         }
     }
 
@@ -114,6 +119,7 @@ public class UIController : MonoBehaviour
             buildingMode.SetActive(false);
             hideInventory.SetActive(false);
             shopMenu.SetActive(false);
+            tutorialPanel.SetActive(false);
         }
     }
 
@@ -134,6 +140,28 @@ public class UIController : MonoBehaviour
             buildingMode.SetActive(false);
             hideInventory.SetActive(false);
             shopMenu.SetActive(true);
+            tutorialPanel.SetActive(false);
+        }
+    }
+
+    public void ShowTutorial()
+    {
+        if (tutorialPanel.activeSelf == true)
+        {
+            tutorialPanel.SetActive(false);
+        }
+
+        else if (tutorialPanel.activeSelf == false)
+        {
+            inventoryMenu.SetActive(false);
+            booksMenu.SetActive(false);
+            profileMenu.SetActive(false);
+            minigameMenu.SetActive(false);
+            friendMenu.SetActive(false);
+            buildingMode.SetActive(false);
+            hideInventory.SetActive(false);
+            shopMenu.SetActive(false);
+            tutorialPanel.SetActive(true);
         }
     }
 }

@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 5e39180ff687c134085b4f63a1ae0730
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7004420840981650971
+    second: Logo_Hochschule_Ansbach.svg_0
+  - first:
+      213: 8000621548431612501
+    second: Logo_Hochschule_Ansbach.svg_1
+  - first:
+      213: 2729814441285514661
+    second: Logo_Hochschule_Ansbach.svg_2
+  - first:
+      213: -8252811090129983815
+    second: Logo_Hochschule_Ansbach.svg_3
+  - first:
+      213: -5034222085954246732
+    second: Logo_Hochschule_Ansbach.svg_4
+  - first:
+      213: 2517122501036773265
+    second: Logo_Hochschule_Ansbach.svg_5
+  - first:
+      213: -4123878693388437907
+    second: Logo_Hochschule_Ansbach.svg_6
+  - first:
+      213: 8093555109383030846
+    second: Logo_Hochschule_Ansbach.svg_7
+  - first:
+      213: 6829567009366025738
+    second: Logo_Hochschule_Ansbach.svg_8
+  - first:
+      213: -878982083676614363
+    second: Logo_Hochschule_Ansbach.svg_9
+  - first:
+      213: -2388137409162902007
+    second: Logo_Hochschule_Ansbach.svg_10
+  - first:
+      213: -3530996481097053530
+    second: Logo_Hochschule_Ansbach.svg_11
+  - first:
+      213: -9153650792214637092
+    second: Logo_Hochschule_Ansbach.svg_12
+  - first:
+      213: -2607396085954915206
+    second: Logo_Hochschule_Ansbach.svg_13
+  - first:
+      213: 8964939668156249768
+    second: Logo_Hochschule_Ansbach.svg_14
+  - first:
+      213: 2024358438806303051
+    second: Logo_Hochschule_Ansbach.svg_15
+  - first:
+      213: -8879822143482574371
+    second: Logo_Hochschule_Ansbach.svg_16
+  - first:
+      213: 8424783755666630698
+    second: Logo_Hochschule_Ansbach.svg_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Logo_Hochschule_Ansbach.svg_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 65
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e122fb2b5c4bce90800000000000000
+      internalID: -7004420840981650971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Hochschule_Ansbach.svg_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 148
+        width: 71
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a1a90c8eae70f60800000000000000
+      internalID: 8000621548431612501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Hochschule_Ansbach.svg_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 148
+        width: 62
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5fd8b65cf32e520800000000000000
+      internalID: 2729814441285514661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Hochschule_Ansbach.svg_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 150
+        width: 67
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6e56ee900287d80800000000000000
+      internalID: -8252811090129983815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Hochschule_Ansbach.svg_4
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 148
+        width: 64
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7654e6fa9d22ab0800000000000000
+      internalID: -5034222085954246732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Hochschule_Ansbach.svg_5
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 148
+        width: 62
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f8072149d9ee220800000000000000
+      internalID: 2517122501036773265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Hochschule_Ansbach.svg_6
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 150
+        width: 67
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66b7c77d2a05c6c0800000000000000
+      internalID: -4123878693388437907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Hochschule_Ansbach.svg_7
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 148
+        width: 68
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38c2d09d75125070800000000000000
+      internalID: 8093555109383030846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Hochschule_Ansbach.svg_8
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 150
+        width: 56
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a062dfaa20f77ce50800000000000000
+      internalID: 6829567009366025738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Hochschule_Ansbach.svg_9
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 150
+        width: 54
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521d582b37a3dc3f0800000000000000
+      internalID: -878982083676614363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Hochschule_Ansbach.svg_10
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 236
+        width: 179
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9060604eda1abded0800000000000000
+      internalID: -2388137409162902007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Hochschule_Ansbach.svg_11
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1
+        width: 78
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa4e0198616ffec0800000000000000
+      internalID: -3530996481097053530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Hochschule_Ansbach.svg_12
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1
+        width: 64
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5d2144a13b7f080800000000000000
+      internalID: -9153650792214637092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Hochschule_Ansbach.svg_13
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 64
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74d9eb031ba0dbd0800000000000000
+      internalID: -2607396085954915206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Hochschule_Ansbach.svg_14
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1
+        width: 63
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6f241412dd96c70800000000000000
+      internalID: 8964939668156249768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Hochschule_Ansbach.svg_15
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1
+        width: 78
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b413d1b4647f71c10800000000000000
+      internalID: 2024358438806303051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Hochschule_Ansbach.svg_16
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 0
+        width: 62
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9c21dcec884c480800000000000000
+      internalID: -8879822143482574371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Hochschule_Ansbach.svg_17
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1
+        width: 67
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28adf97038dae470800000000000000
+      internalID: 8424783755666630698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Logo_Hochschule_Ansbach.svg_0: -7004420840981650971
+      Logo_Hochschule_Ansbach.svg_1: 8000621548431612501
+      Logo_Hochschule_Ansbach.svg_10: -2388137409162902007
+      Logo_Hochschule_Ansbach.svg_11: -3530996481097053530
+      Logo_Hochschule_Ansbach.svg_12: -9153650792214637092
+      Logo_Hochschule_Ansbach.svg_13: -2607396085954915206
+      Logo_Hochschule_Ansbach.svg_14: 8964939668156249768
+      Logo_Hochschule_Ansbach.svg_15: 2024358438806303051
+      Logo_Hochschule_Ansbach.svg_16: -8879822143482574371
+      Logo_Hochschule_Ansbach.svg_17: 8424783755666630698
+      Logo_Hochschule_Ansbach.svg_2: 2729814441285514661
+      Logo_Hochschule_Ansbach.svg_3: -8252811090129983815
+      Logo_Hochschule_Ansbach.svg_4: -5034222085954246732
+      Logo_Hochschule_Ansbach.svg_5: 2517122501036773265
+      Logo_Hochschule_Ansbach.svg_6: -4123878693388437907
+      Logo_Hochschule_Ansbach.svg_7: 8093555109383030846
+      Logo_Hochschule_Ansbach.svg_8: 6829567009366025738
+      Logo_Hochschule_Ansbach.svg_9: -878982083676614363
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
